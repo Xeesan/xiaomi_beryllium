@@ -7,14 +7,13 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common BananaDroid stuff.
-$(call inherit-product, vendor/banana/config/common.mk)
+$(call inherit-product, vendor/xperience/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-BANANA_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := banana_beryllium
+PRODUCT_NAME := xperience_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
